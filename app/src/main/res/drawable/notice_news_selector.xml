@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--被选中时是4dp的底部边线-->
+    <item android:state_checked="true">
+
+        <layer-list>
+            <!-- 最外层-->
+            <item>
+                <shape>
+                    <solid android:color="#20a9f2"/>
+                </shape>
+            </item>
+
+
+            <!-- 新一层-->
+            <item android:bottom="3dp">
+
+                <shape>
+                    <solid android:color="#fff"/>
+                </shape>
+
+            </item>
+
+        </layer-list>
+
+    </item>
+    <item android:state_checked="false">
+
+        <layer-list>
+            <!-- 最外层-->
+            <item>
+                <shape>
+                    <solid android:color="#20a9f2"/>
+                </shape>
+            </item>
+
+
+            <!-- 新一层-->
+            <item android:bottom="0dp">
+
+                <shape>
+                    <solid android:color="#fff"/>
+                </shape>
+
+            </item>
+
+        </layer-list>
+
+    </item>
+
+
+
+
+</selector>

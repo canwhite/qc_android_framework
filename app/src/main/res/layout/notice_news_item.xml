@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/notice_news_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="新闻动态"/>
+
+        <RadioButton
+            android:id="@+id/notice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/notice_news_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="通知公告"/>
+
+    </RadioGroup>
+
+
+
+
+</LinearLayout>
